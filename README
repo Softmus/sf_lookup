@@ -1,4 +1,6 @@
-#Atualmente no Scriptcase a estrutura interna do sc_lookup não permite acessar as colunas pelo nome.
+# SC_LOOKUP Customizado
+
+Atualmente no Scriptcase a estrutura interna do sc_lookup não permite acessar as colunas pelo nome.
 Internamente ele usa for loop incrementando um indexador numérico.
 
 Uma solução foi criar uma LIB interna para melhoria da produtivade.
