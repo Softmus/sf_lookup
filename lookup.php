@@ -1,7 +1,3 @@
-# sf_lookup
-Lib Interna para acessar colunas pelo nome no Scriptcase
-
-<?php
 //mode = ASSOC -> sc_select retornando indice de array como nome da coluna
 //mode = NUM -> sc_select retornando indice de array numerico sequencial
 //mode = LOOKUP_ASSOC -> sc_lookup retornando indice de array como nome da coluna
@@ -82,4 +78,3 @@ Function sf_select($_select,$limit="0",$start="0",$_mode="ASSOC",$_conn="") {
   }  
 }
 
-?>
